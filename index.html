@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ABIRD 代購服務</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@0.244.0/dist/lucide.js"></script>
+</head>
+<body class="min-h-screen bg-gray-50">
+
+  <!-- Navigation -->
+  <nav class="bg-white border-b sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto">
+      <div class="flex justify-between items-center px-6 py-4">
+        <div class="w-40">
+          <img src="https://via.placeholder.com/160x50" alt="ABIRD Logo" class="h-8 object-contain">
+        </div>
+        
+        <div class="flex space-x-6">
+          <a href="#latest" class="px-3 py-2 text-green-700 font-medium border-b-2 border-green-700">最新公告</a>
+          <a href="#collection" class="px-3 py-2 text-gray-700 hover:text-gray-900">代收委託</a>
+          <a href="#store" class="px-3 py-2 text-gray-700 hover:text-gray-900">開團↑</a>
+          <a href="#shops" class="px-3 py-2 text-gray-700 hover:text-gray-900">現貨商店</a>
+          <a href="#faq" class="px-3 py-2 text-gray-700 hover:text-gray-900">常見問題</a>
+          <a href="#contact" class="px-3 py-2 text-gray-700 hover:text-gray-900">聯絡我們</a>
+        </div>
+
+        <div class="flex items-center space-x-4">
+          <!-- User Icon -->
+          <span data-lucide="user" class="w-6 h-6 cursor-pointer"></span>
+          <!-- Shopping Cart Icon -->
+          <span data-lucide="shopping-cart" class="w-6 h-6 cursor-pointer"></span>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="py-6">
+
+    <!-- 最新公告 -->
+    <section id="latest" class="max-w-4xl mx-auto p-6">
+      <h1 class="text-3xl font-bold mb-8">最新公告</h1>
+      
+      <div class="space-y-6">
+        <!-- Announcement 1 -->
+        <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
+          <div class="flex items-center gap-4 mb-3">
+            <span class="text-gray-600">2024/12/30</span>
+            <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">一般公告</span>
+          </div>
+          <h2 class="text-xl font-bold mb-3">2024年末年始配送時程調整通知</h2>
+          <p class="text-gray-600">因應年末年始假期，配送時程將有所調整...</p>
+          <button class="mt-4 text-green-600 hover:text-green-800">繼續閱讀 →</button>
+        </div>
+        
+        <!-- Announcement 2 -->
+        <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
+          <div class="flex items-center gap-4 mb-3">
+            <span class="text-gray-600">2024/12/25</span>
+            <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">優惠活動</span>
+          </div>
+          <h2 class="text-xl font-bold mb-3">聖誕跨年特別優惠活動</h2>
+          <p class="text-gray-600">即日起至2025年1月5日止，全站運費折扣...</p>
+          <button class="mt-4 text-green-600 hover:text-green-800">繼續閱讀 →</button>
+        </div>
+        
+        <!-- Announcement 3 -->
+        <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
+          <div class="flex items-center gap-4 mb-3">
+            <span class="text-gray-600">2024/12/20</span>
+            <span class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm">服務公告</span>
+          </div>
+          <h2 class="text-xl font-bold mb-3">日本代購新增合作商店</h2>
+          <p class="text-gray-600">我們很高興地宣布新增了多家日本實體店面合作...</p>
+          <button class="mt-4 text-green-600 hover:text-green-800">繼續閱讀 →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 代收委託服務 -->
+    <section id="collection" class="max-w-6xl mx-auto p-6">
+      <div class="text-center mb-16">
+        <h1 class="text-4xl font-bold mb-4">代收委託服務</h1>
+        <p class="text-xl text-gray-600">安全可靠的日本代收轉運服務</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-8 mb-16">
+        <!-- Service 1 -->
+        <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
+          <h2 class="text-2xl font-bold mb-4">日本代收服務</h2>
+          <p class="text-gray-600 mb-4">提供日本地址收貨，集運回台</p>
+          <ul class="space-y-2 mb-4">
+            <li class="flex items-center">
+              <span class="w-2 h-2 bg-green-600 rounded-full mr-2"></span>免費地址登記
+            </li>
+            <li class="flex items-center">
+              <span class="w-2 h-2 bg-green-600 rounded-full mr-2"></span>商品到貨確認
+            </li>
+            <li class="flex items-center">
+              <span class="w-2 h-2 bg-green-600 rounded-full mr-2"></span>專業包裝打包
+            </li>
+            <li class="flex items-center">
+              <span class="w-2 h-2 bg-green-600 rounded-full mr-2"></span>多元運送方式
+            </li>
+          </ul>
+          <div class="text-lg font-semibold text-green-600">¥500/件起</div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
+          <h2 class="text-2xl font-bold mb-4">集運服務</h2>
+          <p class="text-gray-600 mb-4">多件商品集中運送，節省運費</p>
+          <ul class="space-y-2 mb-4">
+            <li class="flex items-center">
+              <span class="w-2 h-2 bg-green-600 rounded-full mr-2"></span>商品集中存放
+            </li>
+            <li class="flex items-center">
+              <span class="w-2 h-2 bg-green-600 rounded-full mr-2"></span>統一打包運送
+            </li>
+            <li class="flex items-center">
+              <span class="w-2 h-2 bg-green-600 rounded-full mr-2"></span>重量體積優惠
+            </li>
+            <li class="flex items-center">
+              <span class="w-2 h-2 bg-green-600 rounded-full mr-2"></span>追蹤號碼查詢
+            </li>
+          </ul>
+          <div class="text-lg font-semibold text-green-600">計價方式：材積重量</div>
+        </div>
+      </div>
+
+      <div class="mb-16">
+        <h2 class="text-2xl font-bold mb-8 text-center">服務流程</h2>
+        <div class="grid md:grid-cols-5 gap-4">
+          <!-- Step 1 -->
+          <div class="text-center">
+            <div class="w-12 h-12 rounded-full bg-green-600 text-white flex items-center justify-center mx-auto mb-4">1</div>
+            <h3 class="font-bold mb-2">註冊會員</h3>
+            <p class="text-sm text-gray-600">填寫基本資料，獲得專屬代收地址</p>
+          </div>
+          <!-- Step 2 -->
+          <div class="text-center">
+            <div class="w-12 h-12 rounded-full bg-green-600 text-white flex items-center justify-center mx-auto mb-4">2</div>
+            <h3 class="font-bold mb-2">商品寄送</h3>
+            <p class="text-sm text-gray-600">使用提供的日本地址進行購物</p>
+          </div>
+          <!-- Step 3 -->
+          <div class="text-center">
+            <div class="w-12 h-12 rounded-full bg-green-600 text-white flex items-center justify-center mx-auto mb-4">3</div>
+            <h3 class="font-bold mb-2">確認收貨</h3>
+            <p class="text-sm text-gray-600">商品到達後系統自動通知</p>
+          </div>
+          <!-- Step 4 -->
+          <div class="text-center">
+            <div class="w-12 h-12 rounded-full bg-green-600 text-white flex items-center justify-center mx-auto mb-4">4</div>
+            <h3 class="font-bold mb-2">支付運費</h3>
+            <p class="text-sm text-gray-600">選擇運送方式並支付費用</p>
+          </div>
+          <!-- Step 5 -->
+          <div class="text-center">
+            <div class="w-12 h-12 rounded-full bg-green-600 text-white flex items-center justify-center mx-auto mb-4">5</div>
+            <h3 class="font-bold mb-2">台灣配送</h3>
+            <p class="text-sm text-gray-600">商品安全送達指定地址</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 進行中團購 -->
+    <section id="store" class="max-w-6xl mx-auto p-6">
+      <div class="text-center mb-12">
+        <h1 class="text-4xl font-bold mb-4">進行中團購</h1>
+        <p class="text-gray-600">一起團購更優惠！</p>
+      </div>
+
+      <div class="flex justify-center gap-4 mb-8">
+        <button class="px-4 py-2 rounded-full bg-green-600 text-white">全部</button>
+        <button class="px-4 py-2 rounded-full bg-gray-100 hover:bg-gray-200">服飾</button>
+        <button class="px-4 py-2 rounded-full bg-gray-100 hover:bg-gray-200">美妝</button>
+        <button class="px-4 py-2 rounded-full bg-gray-100 hover:bg-gray-200">零食</button>
+        <button class="px-4 py-2 rounded-full bg-gray-100 hover:bg-gray-200">生活用品</button>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- GroupBuy 1 -->
+        <div class="border rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+          <img src="https://via.placeholder.com/300x200" alt="UNIQLO 2024春季新品團" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-sm font-medium text-green-600">服飾</span>
+              <span class="text-sm px-2 py-1 rounded bg-green-100 text-green-800">進行中</span>
+            </div>
+            <h3 class="text-xl font-bold mb-2">UNIQLO 2024春季新品團</h3>
+            <p class="text-gray-600 mb-4">日本UNIQLO春季新品，台灣未發售款式...</p>
+            
+            <div class="space-y-2 mb-4">
+              <div class="flex items-center text-sm text-gray-600">
+                <!-- Calendar Icon -->
+                <span data-lucide="calendar" class="w-4 h-4 mr-2"></span>
+                截止日期：2024/12/31
+              </div>
+              <div class="flex items-center text-sm text-gray-600">
+                <!-- User Icon -->
+                <span data-lucide="user" class="w-4 h-4 mr-2"></span>
+                已參加：45/100人
+              </div>
+            </div>
+
+            <div class="w-full bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-green-600 rounded-full h-2" style="width: 45%;"></div>
+            </div>
+
+            <button class="w-full py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">立即參加</button>
+          </div>
+        </div>
+
+        <!-- GroupBuy 2 -->
+        <div class="border rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+          <img src="https://via.placeholder.com/300x200" alt="日本零食福袋團" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-sm font-medium text-green-600">零食</span>
+              <span class="text-sm px-2 py-1 rounded bg-red-100 text-red-800">即將結束</span>
+            </div>
+            <h3 class="text-xl font-bold mb-2">日本零食福袋團</h3>
+            <p class="text-gray-600 mb-4">精選日本人氣零食，多樣商品一次購足...</p>
+            
+            <div class="space-y-2 mb-4">
+              <div class="flex items-center text-sm text-gray-600">
+                <!-- Calendar Icon -->
+                <span data-lucide="calendar" class="w-4 h-4 mr-2"></span>
+                截止日期：2024/12/25
+              </div>
+              <div class="flex items-center text-sm text-gray-600">
+                <!-- User Icon -->
+                <span data-lucide="user" class="w-4 h-4 mr-2"></span>
+                已參加：88/100人
+              </div>
+            </div>
+
+            <div class="w-full bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-green-600 rounded-full h-2" style="width: 88%;"></div>
+            </div>
+
+            <button class="w-full py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">立即參加</button>
+          </div>
+        </div>
+
+        <!-- GroupBuy 3 -->
+        <div class="border rounded-lg overflow-hidden hover:shadow-lg transition-shadow">
+          <img src="https://via.placeholder.com/300x200" alt="cosme大賞美妝團" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <div class="flex justify-between items-center mb-2">
+              <span class="text-sm font-medium text-green-600">美妝</span>
+              <span class="text-sm px-2 py-1 rounded bg-gray-100 text-gray-800">準備中</span>
+            </div>
+            <h3 class="text-xl font-bold mb-2">cosme大賞美妝團</h3>
+            <p class="text-gray-600 mb-4">2024年cosme大賞得獎商品團購...</p>
+            
+            <div class="space-y-2 mb-4">
+              <div class="flex items-center text-sm text-gray-600">
+                <!-- Calendar Icon -->
+                <span data-lucide="calendar" class="w-4 h-4 mr-2"></span>
+                截止日期：2025/01/05
+              </div>
+              <div class="flex items-center text-sm text-gray-600">
+                <!-- User Icon -->
+                <span data-lucide="user" class="w-4 h-4 mr-2"></span>
+                已參加：0/150人
+              </div>
+            </div>
+
+            <div class="w-full bg-gray-200 rounded-full h-2 mb-4">
+              <div class="bg-green-600 rounded-full h-2" style="width: 0%;"></div>
+            </div>
+
+            <button class="w-full py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">立即參加</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 常見問題／QnA -->
+    <section id="faq" class="max-w-4xl mx-auto p-6">
+      <h1 class="text-3xl font-bold mb-8 flex items-center">
+        <span class="inline-block w-6 h-6 bg-green-600 mr-2"></span>
+        常見問題／QnA
+      </h1>
+
+      <div class="flex border-b mb-6">
+        <button class="px-6 py-3 text-sm bg-green-700 text-white">日本店頭代購</button>
+        <button class="px-6 py-3 text-sm border hover:bg-gray-50">日本代購</button>
+        <button class="px-6 py-3 text-sm border hover:bg-gray-50">日本代收</button>
+        <button class="px-6 py-3 text-sm border hover:bg-gray-50">美國代購</button>
+      </div>
+
+      <div class="space-y-4">
+        <!-- Question 1 -->
+        <div class="border p-4 bg-white cursor-pointer">
+          <div class="flex justify-between items-center">
+            <h3 class="text-lg">日本店面如何代購</h3>
+            <span data-lucide="plus" class="transform transition-transform"></span>
+          </div>
+          <!-- Answer Hidden by Default -->
+          <div class="mt-4 text-gray-600 whitespace-pre-line hidden">
+            代購流程如下：
+            1. 請將想要購買的商品連結或圖片傳送給我們
+            2. 我們會確認商品庫存和價格
+            3. 確認後請付款訂金（商品金額的50%）
+            4. 我們購入商品後會通知您
+            5. 商品到貨後請付清尾款
+            6. 出貨到您指定的地址
+          </div>
+        </div>
+        <!-- Question 2 -->
+        <div class="border p-4 bg-green-50 cursor-pointer">
+          <div class="flex justify-between items-center">
+            <h3 class="text-lg">有什麼業務?</h3>
+            <span data-lucide="plus" class="transform transition-transform rotate-45"></span>
+          </div>
+          <!-- Answer Visible -->
+          <div class="mt-4 text-gray-600 whitespace-pre-line">
+            我們提供以下服務：
+            • 日本各大購物網站代購
+            • 日本實體店面代購
+            • 日本代收轉寄服務
+            • 美國網站代購服務
+            • 客製化採購服務
+            • 集運服務
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 聯絡我們 -->
+    <section id="contact" class="max-w-4xl mx-auto p-6">
+      <h1 class="text-3xl font-bold mb-8">聯絡我們</h1>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <!-- Contact Information -->
+        <div>
+          <h2 class="text-xl font-bold mb-4">聯絡方式</h2>
+          <div class="space-y-4">
+            <div>
+              <h3 class="font-bold mb-2">客服時間</h3>
+              <p class="text-gray-600">週一至週五 10:00-18:00</p>
+            </div>
+            <div>
+              <h3 class="font-bold mb-2">LINE客服</h3>
+              <p class="text-gray-600">LINE ID: @abird</p>
+            </div>
+            <div>
+              <h3 class="font-bold mb-2">Email</h3>
+              <p class="text-gray-600">service@abird.com</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div>
+          <h2 class="text-xl font-bold mb-4">聯絡表單</h2>
+          <form class="space-y-4">
+            <div>
+              <label class="block text-sm font-medium mb-1">姓名</label>
+              <input type="text" class="w-full p-2 border rounded-lg" placeholder="請輸入姓名">
+            </div>
+            <div>
+              <label class="block text-sm font-medium mb-1">Email</label>
+              <input type="email" class="w-full p-2 border rounded-lg" placeholder="請輸入Email">
+            </div>
+            <div>
+              <label class="block text-sm font-medium mb-1">主旨</label>
+              <input type="text" class="w-full p-2 border rounded-lg" placeholder="請輸入主旨">
+            </div>
+            <div>
+              <label class="block text-sm font-medium mb-1">內容</label>
+              <textarea class="w-full p-2 border rounded-lg h-32" placeholder="請輸入詳細內容"></textarea>
+            </div>
+            <button type="submit" class="w-full py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors">送出</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Lucide Icons Initialization -->
+  <script>
+    lucide.createIcons();
+    
+    // FAQ Toggle Functionality
+    document.querySelectorAll('#faq .border').forEach(function(questionBox) {
+      questionBox.addEventListener('click', function() {
+        const content = this.querySelector('div:nth-child(2)');
+        const icon = this.querySelector('span');
+        const isOpen = !content.classList.contains('hidden');
+        
+        // Close all other questions
+        document.querySelectorAll('#faq .border').forEach(function(box) {
+          box.querySelector('div:nth-child(2)').classList.add('hidden');
+          box.querySelector('span').classList.remove('rotate-45');
+        });
+
+        if (!isOpen) {
+          content.classList.remove('hidden');
+          icon.classList.add('rotate-45');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
